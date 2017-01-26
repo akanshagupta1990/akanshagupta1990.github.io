@@ -1,0 +1,114 @@
+#body_content{
+  margin:6% 2% 6% 0;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 170%;
+  font-size:1.5rem;
+  color:#444;
+}
+
+#body_content .col-md-1 .col-md-2 .col-md-3 .col-md-4 .col-md-5 .col-md-6
+
+#my_desc{
+  font-size: 1.8rem;
+  margin-bottom:7rem;
+}
+
+#my_name{
+  font-family: 'Alegreya';
+  font-size: 5rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+#my_name a{
+  color:#000;
+}
+
+#main_nav{
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+  padding:1rem 0;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+#main_nav a{
+  font-family: 'Alegreya';
+  font-size:1.9rem;
+}
+
+#main_nav > .active > a{
+  background-color:transparent;
+  color:#000;
+  font-weight: 700;
+}
+
+#main_nav > li > a:hover{
+  background-color:transparent;
+  text-decoration: underline;
+}
+
+.proj_name{
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: "Alegreya", Georgia, serif;
+  line-height: 140%;
+  margin-bottom: 2rem;
+}
+.proj_name a{
+  color:#000;
+
+}
+.proj_desc{
+  color: #333;
+  font-size: 1.6rem;
+}
+
+.nav-pills > li {
+    float:none;
+    display:inline-block;
+    zoom:1;
+}
+
+.post-head{
+  font-size: 4.6rem;
+  margin-bottom: 3rem;
+  color: #000;
+  font-family: "Alegreya", Georgia, serif;
+  line-height: 140%;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.section-head{
+  font-size: 2.6rem;
+  color: #000;
+  margin-top: 2.4rem;
+  font-family: 'Alegreya', serif;
+  font-weight: 700;
+}
+
+strong{
+  color:#000;
+}
+
+.proj_snippet .col-md-5:first-child{
+  padding-right:0;
+}
+
+.proj_snippet .col-md-5:nth-child(2){
+  padding-left:0;
+  background-color:#f4f4f4;
+  padding: 1.6rem 3rem;
+}
+
+.proj_snippet{
+  display:flex;
+  margin-bottom:5rem;
+}
+
+.custom_hr{
+  border-top: 1px solid #ddd;
+}
