@@ -1,37 +1,96 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
-<head profile="http://gmpg.org/xfn/11">
+<!-- No image is stretched and all images have maintained their aspect ratio. Also, all images have alt tag descriptors. -->
+<!DOCTYPE html>
+<html>
+<head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>    
 	<title>Akansha Gupta | User Experience and Interaction Designer</title>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" type="text/css" href="../style.css" />
-	<link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,700|Open+Sans:400,700" rel="stylesheet">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,700|Open+Sans:400,700" rel="stylesheet">
 </head>
-<body>
-	<div id="wrapper" class="hfeed">
-		<div id="header">
-			<div id="masthead">
-				<div class="intro-text-main"><a href="http://www.akanshagupta.com/"> Akansha Gupta</a></div>
-				<div class="intro-text-sub"> UI/UX Designer with 4 years of experience. MS HCI student at Georgia Tech.</div>
-				<div id="access">
-					<div class="menu-header">
-						<ul class="nav nav-tabs">
-  							<li role="presentation"><a href="../index.html">Projects</a></li>
-  							<li role="presentation"><a href="../resume.html">Bio</a></li>
-  							<li role="presentation"><a href="../contact.html">Contact</a></li>
-						</ul>
-					</div>           
-				</div>
+<body id="body_content">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1 text-center"> <!-- Grid layout 1-->
+				<h1 id="my_name"><a href="../index.html"> Akansha Gupta</a></h1>
+				<h2 id="my_desc">UI/UX Designer with 4 years of experience. MS HCI student at Georgia Tech.</h2>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<ul id="main_nav" class="nav nav-pills"> <!-- Consistent navigation -->
+					<li role="presentation"><a href="../index.html">Projects</a></li>
+					<li role="presentation"><a href="../resume.html">Bio</a></li>
+					<li role="presentation"><a href="../contact.html">Contact</a></li>
+				</ul>
 			</div>
 		</div>
-		<div id="main">
-			<div id="container">
-				<div id="content" class="post-list">
-					
-					<hr/>
-				</div>
+		<div class="row post_content">
+			<div class="col-md-10 col-md-offset-1">
+				<h1 class="post-head">Interactive presentation for Avanti’s classrooms</h1>
+				<p>Avanti is a company that runs tutoring centers that provide Math and Science education to 11th and 12th graders in India. In 2015, they decided to introduce tablets for all students in their classrooms in an effort to make their already interactive classrooms more interactive and efficiently collect student data.</p>
+				<h4 class="section-head">Design Brief</h4>
+				<p>To modify the existing presentation template so that it can be used both by teachers to teach students from the projector and by students to record their responses to in-class quizzes when it is played on their tablets.</p>
+				<p>
+					<strong>3 member team:</strong> Product Manger, Developer and me
+					<br />
+					<strong>Project duration:</strong> 2 weeks
+				</p>
+				<h4 class="section-head">My Role</h4>
+				<ul>
+					<li>Planned the features for the Student and Teacher interfaces and how they would interaction with each other</li>
+					<li>Brainstormed design ideas for features and navigation</li>
+					<li>Create prototypes in Keynote</li>
+				</ul>
+				<hr class="custom_hr">
+				<h4 class="section-head">Understanding the Existing Format</h4>
+				<p>
+					To understand the format of the classroom and the presentation, I looked at class presentations, talked to Avanti’s teachers, and watched video recordings of classroom sessions. Then I visualised it for my own understanding.
+				</p>
+			</div>
+			<div class="col-md-offset-1 col-md-10">
+				<a href="http://akanshagupta.com/wp-content/uploads/2017/01/Understanding.png"><img src="http://akanshagupta.com/wp-content/uploads/2017/01/Understanding.png" alt="Diagram and chart explaning existing presentation and clasroom format" class="img-responsive img-shadow"/></a>
+			</div>
+			<div class="col-md-10 col-md-offset-1">
+				<h4 class="section-head">Planning the new Experience</h4>
+				<p>In the existing version, there was only one interface, the projector, and only one version of the presentation. Now there could be three interfaces: the projector, the student’s tablet, and the teacher’s computer. I planned the content and features that would go on each slide using a table as follows:</p>
+				<a href="http://akanshagupta.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-15-at-10.29.52-AM.png"><img src="http://akanshagupta.com/wp-content/uploads/2017/01/Screen-Shot-2017-01-15-at-10.29.52-AM.png" alt="Plan for the new interaction design experience" class="img-responsive img-shadow"/></a>
+			</div>
+			<div class="col-md-10 col-md-offset-1">
+				<h4 class="section-head">Design Ideas for Navigation and Slide Interactions</h4>
+				<p>Then I brainstormed different ideas for representing content and interacting with features on each slide and navigating between slides. The screens were designed taking into the account the form factor of the tablet first.</p>
+			</div>
+			<div class="col-md-5 col-md-offset-1">
+				<a href="http://akanshagupta.com/wp-content/uploads/2017/01/Student-Spot-Test.png"><img src="http://akanshagupta.com/wp-content/uploads/2017/01/Student-Spot-Test.png" alt="An idea to show a Spot Test" class="img-responsive img-shadow"/></a>
+			</div>
+			<div class="col-md-5">
+				<a href="http://akanshagupta.com/wp-content/uploads/2017/01/16_Student_SpotTest-1.png"><img src="http://akanshagupta.com/wp-content/uploads/2017/01/16_Student_SpotTest-1.png" alt="Another idea to show a Spot Test
+				" class="img-responsive img-shadow"/></a>
+			</div>
+			<div class="col-md-10 col-md-offset-1">
+				<p>Once I was confident I had explored enough, I discussed the plan table and these design ideas with the team and got their feedback.</p>
+			</div>
+			<div class="col-md-10 col-md-offset-1">
+				<h4 class="section-head">Final Prototypes in Keynote</h4>
+				<p>After few round of changes, we decided on the following designs for the teacher’s interface and the student’s interface. I prototyped these in Keynote.</p>
+			</div>
+			<div class="col-md-5 col-md-offset-1">
+				<strong>Teacher's Presentation</strong> 
+				<a href="http://akanshagupta.com/wp-content/uploads/2015/10/Research-summary-2.png"><img class="img-responsive img-shadow" src="http://akanshagupta.com/wp-content/uploads/2015/10/Research-summary-2.png" alt="Diagram of user's workflow" /></a>
+			</div>
+			<div class="col-md-5">
+				<strong>Student's Presentation</strong>.<a href="http://akanshagupta.com/wp-content/uploads/2016/10/02_research_outcomes.png"><img class="img-responsive img-shadow" src="http://akanshagupta.com/wp-content/uploads/2016/10/02_research_outcomes.png" alt="Sample screenshot of exisiting application with annotations of problem areas"/></a>
+			</div>
+			<div class="col-md-10 col-md-offset-1">
+				<p>We decided to make the final tweaks for the type sizes, colors, and spacing directly in the code after testing it on the tablet and the projector together in the actual classroom setting.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<hr class="custom_hr">
 			</div>
 		</div>
 	</div>
