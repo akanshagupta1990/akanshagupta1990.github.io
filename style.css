@@ -1,7 +1,8 @@
+/* Typography for high contrast, professional look, and reflection of my personality */
 #body_content{
   margin:6% 2% 6% 0;
   font-family: 'Open Sans', sans-serif;
-  line-height: 170%;
+  line-height: 180%;
   font-size:1.5rem;
   color:#444;
 }
@@ -9,6 +10,7 @@
 #my_desc{
   font-size: 1.8rem;
   margin-bottom:7rem;
+  line-height: 170%;
 }
 
 #my_name{
@@ -29,7 +31,11 @@
   padding:1rem 0;
   margin-bottom: 5rem;
   display: flex;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:-webkit-flex;
   justify-content: center;
+  -webkit-justify-content: center;
 }
 
 #main_nav a{
@@ -93,10 +99,6 @@ strong{
   color:#000;
 }
 
-.proj_snippet .col-md-5:first-child{
-  padding-right:0;
-}
-
 .proj_snippet .col-md-5:nth-child(2){
   padding-left:0;
   background-color:#f4f4f4;
@@ -104,12 +106,50 @@ strong{
 }
 
 .proj_snippet{
-  display:flex;
   margin-bottom:5rem;
 }
 
 .custom_hr{
   border-top: 1px solid #ddd;
+  margin: 6rem 0;
 }
 
-.
+.post_content img, .post_content .embed-responsive{
+  margin:2rem 0 3.6rem;
+}
+
+.img-shadow{
+  border: 1px solid #e2e2e2;
+}
+
+/* Custom media queries */
+@media (min-width: 991px){
+  .proj_snippet{
+    display:flex;
+    display:-webkit-box;;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+  }
+
+  .proj_snippet .col-md-5:first-child{
+    padding-right:0;
+  }
+
+  .proj_snippet .col-md-5:nth-child(2){
+    padding-left:0;
+    background-color:#f4f4f4;
+    padding: 1.6rem 3rem;
+    align-items: stretch;
+  }
+
+}
+
+@media (max-width: 991px){
+  .proj_snippet .col-md-5:nth-child(2){
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
